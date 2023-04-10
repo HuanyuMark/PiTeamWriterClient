@@ -41,6 +41,7 @@ onBeforeUnmount(() => {
 const handleCreated = (editor: IDomEditor) => {
     editorRef.value = editor // 记录 editor 实例，重要！
     editorModel.editors.push(editor);
+    console.log(editor);
 }
 
 const handleChange = (editor: IDomEditor) => {

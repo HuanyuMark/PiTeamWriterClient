@@ -8,7 +8,7 @@
     </div>
 </template>
 <script setup lang="ts">
-import './utils/plugins/ModifyUploader'
+import './utils/EditorPlugins'
 </script>
 <style scoped>
 #App {
