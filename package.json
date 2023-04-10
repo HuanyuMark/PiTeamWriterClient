@@ -12,7 +12,11 @@
     "format": "prettier --write src/"
   },
   "dependencies": {
+    "@wangeditor/editor": "^5.1.23",
+    "@wangeditor/editor-for-vue": "^5.1.12",
     "pinia": "^2.0.32",
+    "socket.io": "^4.6.1",
+    "socket.io-client": "^4.6.1",
     "vue": "^3.2.47",
     "vue-router": "^4.1.6"
   },

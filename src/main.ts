@@ -10,3 +10,6 @@ app.use(setUpPinia())
 app.use(router)
 
 app.mount('#app')
+
+app.config.errorHandler = (err: unknown, component) => {
+}
